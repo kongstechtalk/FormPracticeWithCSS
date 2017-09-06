@@ -1,0 +1,74 @@
+body {
+    background: url("stain.png") no-repeat scroll 1cm 1cm / 450px auto, rgba(0, 0, 0, 0) url("bluebkg.jpg") no-repeat scroll left center / cover ;
+    color: white;
+}
+form {
+    background: rgba(0, 0, 0, 0) url("texture80.png") repeat scroll 0 0;
+    border-radius: 1px 64px 64px 1px;
+    box-shadow: 16px 16px 16px  #888888;
+    font-family: Arial;
+    padding: 8px;
+    width: 30em;
+}
+fieldset {
+    background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
+    border-radius: 1px 64px 64px 1px;
+    font-weight: bold;
+}
+input {
+    background: black none repeat scroll 0 0;
+    border-color: white black black white;
+    border-style: solid;
+    color: white;
+    margin: 4px;
+    padding: 4px;
+}
+legend {
+    background-color: rgba(180, 180, 180, 0.8);
+    font-weight: bold;
+    padding: 4px;
+}
+input:hover {
+    border-left-color: yellow;
+    border-top-color: yellow;
+}
+select {
+    background: black none repeat scroll 0 0;
+    color: white;
+}
+select:hover {
+    border-left-color: yellow;
+    border-top-color: yellow;
+}
+button {
+    background: black none repeat scroll 0 0;
+    border-color: white black black white;
+    color: white;
+}
+button:active {
+    border-color: black white white black;
+}
+optgroup[label="USA"] {
+    color: red;
+}
+optgroup[label="CANADA"] {
+    color: red;
+}
+option {
+    color: white;
+}
+.subscribe > legend {
+    background: black none repeat scroll 0 0;
+}
+
+.container {
+    position: relative;
+    left: 180px;
+    top: 5px;
+}
+img{
+	position:relative;
+	top:.55em;
+	
+	
+}
